@@ -1,6 +1,7 @@
-$(function(){
-    $('#myTab a').click(function (e) {
+$(function () {
+  $("li").click(function (e) {
       e.preventDefault();
-      $(this).tab('show');
-    })
+      $("li").removeClass("active");
+      $(this).addClass("active");
   });
+});
