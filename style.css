@@ -1,3 +1,7 @@
+.nextplaytest {
+    position: fixed;
+}
+
 /* Style for making the navigation menu */
 .navbar {
     position: fixed;
